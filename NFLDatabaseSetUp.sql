@@ -1,9 +1,0 @@
-/*
-This will be our set up for our database.
-*/
-
-DROP DATABASE IF EXISTS NFL_PROJECT;
-
-CREATE DATABASE NFL_PROJECT;
-
-USE NFL_PROJECT;

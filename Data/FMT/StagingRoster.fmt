@@ -1,18 +1,9 @@
 14.0
-16
-1       SQLINT             0       12      ","     1     season                                       ""
-2       SQLCHAR            0       50      ","     2     team                                         SQL_Latin1_General_CP1_CI_AS
-3       SQLCHAR            0       50      ","     3     position                                     SQL_Latin1_General_CP1_CI_AS
-4       SQLCHAR            0       50      ","     4     depth_chart_position                         SQL_Latin1_General_CP1_CI_AS
-5       SQLCHAR            0       100     ","     5     full_name                                    SQL_Latin1_General_CP1_CI_AS
-6       SQLCHAR            0       50      ","     6     first_name                                   SQL_Latin1_General_CP1_CI_AS
-7       SQLCHAR            0       50      ","     7     last_name                                    SQL_Latin1_General_CP1_CI_AS
-8       SQLCHAR            0       50      ","     8     height                                       SQL_Latin1_General_CP1_CI_AS
-9       SQLINT             0       12      ","     9     weight                                       ""
-10      SQLCHAR            0       50      ","     10    college                                      SQL_Latin1_General_CP1_CI_AS
-11      SQLCHAR            0       50      ","     11    years_exp                                    SQL_Latin1_General_CP1_CI_AS
-12      SQLINT             0       12      ","     12    week                                         ""
-13      SQLCHAR            0       50      ","     13    game_type                                    SQL_Latin1_General_CP1_CI_AS
-14      SQLINT             0       12      ","     14    entry_year                                   ""
-15      SQLINT             0       12      ","     15    rookie_year                                  ""
-16      SQLCHAR            0       50      "\r\n"   16    draft_club                                   SQL_Latin1_General_CP1_CI_AS
+7
+1       SQLCHAR             0       100     ","     1     team                                         SQL_Latin1_General_CP1_CI_AS
+2       SQLCHAR             0       100     ","     2     position                                     SQL_Latin1_General_CP1_CI_AS
+3       SQLCHAR             0       100     ","     3     depth_chart_position                         SQL_Latin1_General_CP1_CI_AS
+4       SQLCHAR             0       100     ","     4     first_name                                   SQL_Latin1_General_CP1_CI_AS
+5       SQLCHAR             0       100     ","     5     last_name                                    SQL_Latin1_General_CP1_CI_AS
+6       SQLCHAR             0       100     ","     6     height                                       SQL_Latin1_General_CP1_CI_AS
+7       SQLCHAR             0       12      "\r\n"   7     weight                                       ""

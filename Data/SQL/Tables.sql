@@ -34,22 +34,13 @@ CREATE TABLE RAW.Seasonal_Stats(
 )
 
 CREATE TABLE RAW.StagingRoster(
-    season INT NOT NULL,
     team NVARCHAR(50) NOT NULL,
     position NVARCHAR(50) NOT NULL,
     depth_chart_position NVARCHAR(50) NOT NULL,
-    full_name NVARCHAR(50) NOT NULL,
     first_name NVARCHAR(50) NOT NULL,
     last_name NVARCHAR(50) NOT NULL,
-    height NVARCHAR(50) NULL,
-    [weight] INT NULL,
-    college NVARCHAR(50) NULL,
-    years_exp NVARCHAR(50) NOT NULL,
-    [week] INT NOT NULL,
-    game_type NVARCHAR(50) NOT NULL,
-    entry_year INT NOT NULL,
-    rookie_year INT NULL,
-    draft_club NVARCHAR(50) NULL
+    height INT NULL,
+    [weight] INT NULL
 )
 --------------------------------------------------------------------------------
 
@@ -60,7 +51,7 @@ CREATE TABLE NFL.Player (
     PlayerTeamID INT,
     FirstName NVARCHAR(50) NOT NULL,
     LastName NVARCHAR(50) NOT NULL,
-    Height NVARCHAR(50) NULL, -- Note: Height will be displayed as 6' 3 " (Some players dont have height listed)
+    Height INT NULL, -- Note: Height will be displayed as 6' 3 " (Some players dont have height listed)
     [Weight] INT NOT NULL,
     MainPosition NVARCHAR(50)
 );
@@ -79,7 +70,6 @@ CREATE TABLE NFL.OffensiveStats (
     OffensiveStatsID INT NOT NULL IDENTITY (1,1) PRIMARY KEY,
     PlayerTeamID INT,
     TeamID INT,
-    TeamGameID INT,
     PassingYDs INT NULL,
     PassingTDs INT NULL,
     PassingINTs INT NULL,
@@ -98,7 +88,6 @@ CREATE TABLE NFL.Team (
     TeamID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
     DivisionID INT NOT NULL,
     ConferenceID INT NOT NULL,
-    TeamGameID INT NOT NULL,
     DivisionSeeding INT NOT NULL,
     ConferenceSeeding INT NOT NULL,
     IsConferenceChamp NVARCHAR(50) NOT NULL, --True or False

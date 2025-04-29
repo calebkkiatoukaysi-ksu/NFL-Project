@@ -22,37 +22,27 @@ Write-Host "Rebuilding database $Database on $Server..."
    If on your local machine, you can drop and re-create the database.
 #>
 & ".\Scripts\DropDatabase.ps1" -Database $Database
-
 & ".\Scripts\CreateDatabase.ps1" -Database $Database
 
-<#
-   If on the department's server, you don't have permissions to drop or create databases.
-   In this case, maintain a script to drop all tables.
-#>
-Write-Host "Creating schema"
+Write-Host "Creating schema..."
 Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "Data\Schemas\Schema.sql"
 
-Write-Host "Creating tables"
+Write-Host "Creating tables..."
 Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "Data\SQL\Tables.sql"
 
 <#
 Write-Host "Stored procedures..."
-from lecture
-
-Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "PersonData\Sql\Procedures\Person.CreatePerson.sql"
-Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "PersonData\Sql\Procedures\Person.RetrievePersons.sql"
-Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "PersonData\Sql\Procedures\Person.FetchPerson.sql"
-Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "PersonData\Sql\Procedures\Person.GetPersonByEmail.sql"
-Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "PersonData\Sql\Procedures\Person.SavePersonAddress.sql"
-Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "PersonData\Sql\Procedures\Person.RetrieveAddressesForPerson.sql"
+Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "[FILEPATH]"
 #>
 
+
 Write-Host "Inserting data..."
-python Data\SQL\InsertBCPRAW.py
-
+python Data\InsertBCPRAW.py
 Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "Data\SQL\Insertion.sql"
-
-
+<#
+Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "Data\SQL\Data\MLS.PlayerType.sql"
+Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "Data\SQL\Data\MLS.Club.sql"
+#>
 
 Write-Host "Rebuild completed."
 Write-Host ""

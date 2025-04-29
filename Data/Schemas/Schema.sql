@@ -10,7 +10,8 @@ END;
 
 IF NOT EXISTS
    (
-      SELECT * FROM sys.schemas s 
+      SELECT * 
+      FROM sys.schemas s 
       WHERE s.[name] = N'RAW'
    )
 BEGIN

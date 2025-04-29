@@ -113,13 +113,13 @@ ALTER COLUMN PlayerTeamID INT NULL; -- will have to reset back to NOT NULL
 
 INSERT INTO NFL.Player(TeamID, FirstName, LastName, Height, [Weight], MainPosition)
 SELECT t.TeamID, r.first_name, r.last_name, r.height, r.[weight], r.[position]
-FROM dbo.StagingRoster r
+FROM RAW.StagingRoster r
 INNER JOIN NFL.Team t ON t.Name = r.team
 
 -- Populate PlayerTeam table 
 INSERT INTO NFL.PlayerTeam (PlayerID, TeamID)
 SELECT DISTINCT p.PlayerID, t.TeamID
-FROM dbo.StagingRoster r
+FROM RAW.StagingRoster r
 INNER JOIN NFL.Team t ON t.Name = r.team
 INNER JOIN NFL.Player p ON p.TeamID = t.TeamID;
 
@@ -133,12 +133,12 @@ WHERE P.PlayerTeamID IS NULL;
 /*
 -- Uh oh, our raw table doesn't have a player id
 -- caleb to the rescue
-ALTER TABLE dbo.Seasonal_Stats
+ALTER TABLE RAW.Seasonal_Stats
 ADD PlayerID INT; 
 
 UPDATE ss
 SET ss.PlayerID = P.PlayerID
-FROM dbo.Seasonal_Stats ss
+FROM RAW.Seasonal_Stats ss
 INNER JOIN NFL.Player P 
   ON P.FirstName = ss.player_first_name
  AND P.LastName = ss.player_last_name
@@ -146,7 +146,7 @@ INNER JOIN NFL.Player P
 -- some first names are not matching so match via last names for those who are null.
 UPDATE ss
 SET ss.PlayerID = P.PlayerID
-FROM dbo.Seasonal_Stats AS ss
+FROM RAW.Seasonal_Stats AS ss
 JOIN NFL.Player AS P
   ON P.LastName = ss.player_last_name
  AND P.MainPosition = ss.position  -- Ensuring the position matches
@@ -171,7 +171,7 @@ SELECT
     ss.receptions,
     ss.receiving_yards,
     ss.receiving_tds
-FROM dbo.Seasonal_Stats ss
+FROM RAW.Seasonal_Stats ss
 INNER JOIN NFL.PlayerTeam pt ON pt.PlayerID = ss.PlayerID;
 
 -- Now define the constraints

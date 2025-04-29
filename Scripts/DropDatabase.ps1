@@ -1,32 +1,26 @@
-[CmdletBinding()]
+[cmdletbinding()]
 Param(
-    [string] $Server   = "(localdb)\MSSQLLocalDB",
-    [string] $Database = (Throw 'You must specify -Database')
+  [string] $Server = "(localdb)\MSSQLLocalDB",
+  [string] $Database
 )
 
-# Determine script directory
-$ScriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
-
-Write-Host "Dropping database '$Database' on server '$Server'..."
-
-# Build the DROP DATABASE SQL, checking existence first
 $Sql = @"
-IF EXISTS (
-    SELECT 1 FROM sys.databases WHERE name = N'$Database'
-)
+IF EXISTS
+   (
+      SELECT *
+      FROM sys.databases d
+      WHERE d.name = N'`$(DatabaseName)'
+   )
 BEGIN
-    ALTER DATABASE [$Database]
-    SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+   ALTER DATABASE [`$(DatabaseName)]
+   SET SINGLE_USER
+   WITH ROLLBACK IMMEDIATE;
 
-    DROP DATABASE [$Database];
+   DROP DATABASE [`$(DatabaseName)];
 END;
 "@
 
-# Execute against master database
-Invoke-Sqlcmd \
-    -ServerInstance $Server \
-    -Database master \
-    -Query $Sql \
-    -ErrorAction Stop
+Write-Host "Dropping $Database database"
 
-Write-Host "Database '$Database' dropped (if it existed)."
+Invoke-Sqlcmd -ServerInstance $Server -Database "master" -Query $Sql -Variable "DatabaseName=$Database"
+

@@ -1,0 +1,17 @@
+14.0
+15
+1       SQLCHAR     0       100     ","     1     player_id              SQL_Latin1_General_CP1_CI_AS
+2       SQLCHAR     0       100     ","     2     player_first_name      SQL_Latin1_General_CP1_CI_AS
+3       SQLCHAR     0       100     ","     3     player_last_name       SQL_Latin1_General_CP1_CI_AS
+4       SQLCHAR     0       100     ","     4     position               SQL_Latin1_General_CP1_CI_AS
+5       SQLCHAR     0       12      ","     5     passing_yards          ""
+6       SQLCHAR     0       12      ","     6     passing_td             ""
+7       SQLCHAR     0       12      ","     7     interceptions          ""
+8       SQLCHAR     0       12      ","     8     carries                ""
+9       SQLCHAR     0       12      ","     9     rushing_yards          ""
+10      SQLCHAR     0       12      ","     10    rushing_tds            ""
+11      SQLCHAR     0       12      ","     11    rushing_fumbles        ""
+12      SQLCHAR     0       12      ","     12    receptions             ""
+13      SQLCHAR     0       12      ","     13    receiving_yards        ""
+14      SQLCHAR     0       12      ","     14    receiving_tds          ""
+15      SQLCHAR     0       12      "\r\n"  15    PlayerID               ""

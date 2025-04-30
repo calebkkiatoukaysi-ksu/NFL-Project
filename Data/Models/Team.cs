@@ -14,11 +14,11 @@ namespace Data.Models
 
         public int ConferenceID { get; }
 
-        // can get rid of division seeding  and conference seeding if issues -caleb
+        /* 
         public int DivisionSeeding { get; }
 
         public int ConferenceSeeding { get; }
-
+        */
         public string City { get; }
 
         public string State { get; }

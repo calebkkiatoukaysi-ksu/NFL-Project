@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\KONGM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KONGM\\AppData\\Roaming\\NuGet\\NuGet.Config",

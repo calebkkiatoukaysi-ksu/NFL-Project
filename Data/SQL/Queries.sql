@@ -1,3 +1,5 @@
+--FIRST TRY SHOULD BE MOVED TO PROCEDURES IF DESIRED FOR FUNCTIONALITY
+
 Create or Alter PROCEDURE NFL.GetPositionStats
 @Position NVARCHAR(50)
 AS
@@ -9,16 +11,6 @@ Inner Join NFL.OffensiveStats o on pt.PlayerTeamId = o.PlayerTeamId
 Where p.MainPosition = @Position
 Order By Rank() Over
 (Order by Case When @Position = N'WR' THEN o.ReceivingYDs When @Position = N'QB' THEN o.PassingYDs When @Position = N'RB' THEN o.RushingYDs ELSE (o.PassingTDs + o.ReceivingTDs + o.RushingTDs) END DESC)
-GO
-
-CREATE or Alter PROCEDURE NFL.GetTeamStats
-AS
-Select t.Name, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs) AS TotalTDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs) AS TotalYDs, SUM(o.PassingYDs) AS PassingYDS, SUM(o.ReceivingYDs) AS ReceivingYDS, SUM(o.RushingYDS) AS RushingYDS
-From NFL.Team t
-Inner Join NFL.PlayerTeam pt on t.TeamId = pt.TeamId
-Inner Join NFL.OffensiveStats o on pt.PlayerTeamId = o.PlayerTeamId
-Group By t.Name
-Order By TotalTDs DESC, TotalYDs DESC
 GO
 
 Create or Alter PROCEDURE NFL.GetFantasyPoints
@@ -47,10 +39,63 @@ Where p.Height BETWEEN @HeightMin and @HeightMax and p.Weight BETWEEN @WeightMin
 Order By Rank() Over(Order by (o.PassingTDs + o.ReceivingTDs + o.RushingTDs) DESC,  (o.PassingYDs + o.RushingYDs + o.ReceivingYDs) DESC)
 GO
 
+
+--Actual Queries
+
+CREATE or Alter PROCEDURE NFL.GetTeamStats
+AS
+Select t.Name, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs) AS TotalTDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs) AS TotalYDs, SUM(o.PassingYDs) AS PassingYDS, SUM(o.ReceivingYDs) AS ReceivingYDS, SUM(o.RushingYDS) AS RushingYDS
+From NFL.Team t
+Inner Join NFL.PlayerTeam pt on t.TeamId = pt.TeamId
+Inner Join NFL.OffensiveStats o on pt.PlayerTeamId = o.PlayerTeamId
+Group By t.Name
+Order By TotalTDs DESC, TotalYDs DESC
+GO
+
+CREATE or Alter PROCEDURE NFL.GetDivisionStats
+AS
+Select d.DivisionName, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs) AS TotalTDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs) AS TotalYDs, SUM(o.PassingYDs) AS PassingYDS, SUM(o.ReceivingYDs) AS ReceivingYDS, SUM(o.RushingYDS) AS RushingYDS
+From NFL.Team t
+Inner Join NFL.PlayerTeam pt on t.TeamId = pt.TeamId
+Inner Join NFL.OffensiveStats o on pt.PlayerTeamId = o.PlayerTeamId
+Inner Join NFL.Division d on t.DivisionId = d.DivisionId
+Group By d.DivisionName
+Order By TotalTDs DESC, TotalYDs DESC
+GO
+
+CREATE or Alter PROCEDURE NFL.GetConferenceStats
+AS
+Select c.ConferenceName, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs) AS TotalTDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs) AS TotalYDs, SUM(o.PassingYDs) AS PassingYDS, SUM(o.ReceivingYDs) AS ReceivingYDS, SUM(o.RushingYDS) AS RushingYDS
+From NFL.Team t
+Inner Join NFL.PlayerTeam pt on t.TeamId = pt.TeamId
+Inner Join NFL.OffensiveStats o on pt.PlayerTeamId = o.PlayerTeamId
+Inner Join NFL.Conference c on t.ConferenceID = c.ConferenceID
+Group By c.ConferenceName
+Order By TotalTDs DESC, TotalYDs DESC
+GO
+
+Create or Alter PROCEDURE NFL.GetHeightStats
+AS
+Select p.Height, COUNT(p.PlayerId) AS PlayerCount, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs) AS TotalTDs, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs)/ COUNT(p.PlayerId)AS AverageTDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs) AS TotalYDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs)/ COUNT(p.PlayerId) AS AverageYDs, SUM(o.PassingYDs) AS PassingYDS, SUM(o.ReceivingYDs) AS ReceivingYDS, SUM(o.RushingYDS) AS RushingYDS
+From NFL.Player p
+Inner Join NFL.PlayerTeam pt on p.PlayerId = pt.PlayerId
+Inner Join NFL.OffensiveStats o on pt.PlayerTeamId = o.PlayerTeamId
+Group By p.Height
+Order By PlayerCount DESC, AverageYDs DESC
+GO
+
+Create or Alter PROCEDURE NFL.GetWeightStats
+AS
+Select p.Weight, COUNT(p.PlayerId) AS PlayerCount, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs) AS TotalTDs, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs)/ COUNT(p.PlayerId)AS AverageTDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs) AS TotalYDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs)/ COUNT(p.PlayerId) AS AverageYDs, SUM(o.PassingYDs) AS PassingYDS, SUM(o.ReceivingYDs) AS ReceivingYDS, SUM(o.RushingYDS) AS RushingYDS
+From NFL.Player p
+Inner Join NFL.PlayerTeam pt on p.PlayerId = pt.PlayerId
+Inner Join NFL.OffensiveStats o on pt.PlayerTeamId = o.PlayerTeamId
+Group By p.Weight
+Order By PlayerCount DESC, AverageYDs DESC
+GO
+
 Exec NFL.GetPositionStats
     @Position = N'QB'
-
-EXEC NFL.GetTeamStats
 
 EXEC NFL.GetFantasyPoints
 
@@ -62,3 +107,14 @@ EXEC NFL.GetHeightWeightStats
     @HeightMax = 88,
     @WeightMin = 200,
     @WeightMax = 220
+
+---EXECUTIONS FOR AGGREGATING QUERIES
+EXEC NFL.GetTeamStats
+
+EXEC NFL.GetDivisionStats
+
+EXEC NFL.GetConferenceStats
+
+EXEC NFL.GetHeightStats
+
+EXEC NFL.GetWeightStats

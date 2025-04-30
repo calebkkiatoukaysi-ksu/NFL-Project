@@ -1,7 +1,23 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\storedprocedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\models\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\queries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\queries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\storedprocedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +25,48 @@
       "DocumentGroups": [
         {
           "DockedHeight": 79,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoredProcedures.sql ",
+              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\StoredProcedures.sql",
+              "RelativeDocumentMoniker": "..\\Data\\SQL\\StoredProcedures.sql",
+              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\StoredProcedures.sql",
+              "RelativeToolTip": "..\\Data\\SQL\\StoredProcedures.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-30T14:38:48.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Queries.sql ",
+              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\Queries.sql",
+              "RelativeDocumentMoniker": "..\\Data\\SQL\\Queries.sql",
+              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\Queries.sql",
+              "RelativeToolTip": "..\\Data\\SQL\\Queries.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-30T14:37:39.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Models\\PlayerStats.cs",
+              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\PlayerStats.cs",
+              "RelativeToolTip": "..\\Data\\Models\\PlayerStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:34:45.772Z",
+              "EditorCaption": ""
             }
           ]
         }

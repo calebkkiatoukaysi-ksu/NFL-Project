@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\NFL_APP\\NFL_APP.csproj": {}
+    "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\NFL_APP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\NFL_APP\\NFL_APP.csproj": {
+    "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\NFL_APP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\NFL_APP\\NFL_APP.csproj",
+        "projectUniqueName": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\NFL_APP.csproj",
         "projectName": "NFL_APP",
-        "projectPath": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\NFL_APP\\NFL_APP.csproj",
+        "projectPath": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\NFL_APP.csproj",
         "packagesPath": "C:\\Users\\KONGM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\NFL_APP\\obj\\",
+        "outputPath": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KONGM\\AppData\\Roaming\\NuGet\\NuGet.Config",

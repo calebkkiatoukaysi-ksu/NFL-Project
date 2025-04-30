@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\KONGM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\Data\\obj\\",
+      "outputPath": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KONGM\\AppData\\Roaming\\NuGet\\NuGet.Config",

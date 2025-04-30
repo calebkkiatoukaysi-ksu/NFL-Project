@@ -1,20 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\NFL_APP\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\onedrive\\documents\\nflproject\\data\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\onedrive\\documents\\nflproject\\data\\models\\conference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E548BB3B-C0DA-4C5D-8A02-9EB07F51AB9A}|..\\DataAccess\\DataAccess.csproj|c:\\users\\kongm\\onedrive\\documents\\nflproject\\dataaccess\\sqlcommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E548BB3B-C0DA-4C5D-8A02-9EB07F51AB9A}|..\\DataAccess\\DataAccess.csproj|c:\\users\\kongm\\onedrive\\documents\\nflproject\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -22,60 +9,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 79,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Team.cs",
-              "DocumentMoniker": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\Data\\Models\\Team.cs",
-              "RelativeDocumentMoniker": "..\\Data\\Models\\Team.cs",
-              "ToolTip": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\Data\\Models\\Team.cs",
-              "RelativeToolTip": "..\\Data\\Models\\Team.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T07:30:25.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Conference.cs",
-              "DocumentMoniker": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\Data\\Models\\Conference.cs",
-              "RelativeDocumentMoniker": "..\\Data\\Models\\Conference.cs",
-              "ToolTip": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\Data\\Models\\Conference.cs",
-              "RelativeToolTip": "..\\Data\\Models\\Conference.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T07:30:22.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SqlCommandExecutor.cs",
-              "DocumentMoniker": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\DataAccess\\SqlCommandExecutor.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\SqlCommandExecutor.cs",
-              "ToolTip": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\DataAccess\\SqlCommandExecutor.cs",
-              "RelativeToolTip": "..\\DataAccess\\SqlCommandExecutor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T07:28:49.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataAccess.csproj",
-              "DocumentMoniker": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\DataAccess\\DataAccess.csproj",
-              "RelativeDocumentMoniker": "..\\DataAccess\\DataAccess.csproj",
-              "ToolTip": "C:\\Users\\KONGM\\OneDrive\\Documents\\NFLPROJECT\\DataAccess\\DataAccess.csproj",
-              "RelativeToolTip": "..\\DataAccess\\DataAccess.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-30T07:21:54.976Z"
             }
           ]
         }

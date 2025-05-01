@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Data",
-    "\\NFL_APP",
-    "\\Scripts"
+    "\\Data\\DataDelegates",
+    "\\NFL_APP"
   ],
-  "SelectedNode": "\\NFL_APP\\NFL_APP.sln",
+  "SelectedNode": "\\Data\\SqlStatsRepository.cs",
   "PreviewInSolutionExplorer": false
 }

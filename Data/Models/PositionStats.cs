@@ -9,45 +9,42 @@ namespace Data.Models
 {
     public class PositionStats
     {
-        public string Name { get; }
-
+        public string PlayerName { get; }
         public string MainPosition { get; }
-
         public string TeamName { get; }
-
-        public int TotalTDs { get; }
-
+        public int PassingYDs { get; }
         public int PassingTDs { get; }
-
+        public int PassingINTs { get; }
+        public int RushingYDs { get; }
+        public int Carries { get; }
+        public int RushingTDs { get; }
+        public int RushingFUMs { get; }
+        public int Receptions { get; }
+        public int ReceivingYDs { get; }
         public int ReceivingTDs { get; }
 
-        public int RushingTDs { get; }
 
-        public int PassingYDs { get; }
-
-        public int ReceivingYDs { get; }
-
-        public int Receptions { get; }
-
-        public int Carries { get; }
-
-        public int RushingFUMs { get; }
-
-        public PositionStats(string name, string mainPosition, string teamName, int totalTDs, int passingTDs,
-            int receivingTDs, int rushingTDs, int passingYDs, int receivingYDs, int receptions, int carries, int rushingFUMs)
+        public PositionStats(string playerName, string mainPosition, string teamName, int passingYDs, int passingTDs,
+            int passingINTs, int carries, int rushingYDs, int rushingTDs, int rushingFUMs, int receptions,
+            int receivingYDs, int receivingTDs)
         {
-            Name = name;
+            PlayerName = playerName;
             MainPosition = mainPosition;
             TeamName = teamName;
-            TotalTDs = totalTDs;
-            PassingTDs = passingTDs;
-            ReceivingTDs = receivingTDs;
-            RushingTDs = rushingTDs;
+
             PassingYDs = passingYDs;
-            ReceivingYDs = receivingYDs;
-            Receptions = receptions;
+            PassingTDs = passingTDs;
+            PassingINTs = passingINTs;
+
             Carries = carries;
+            RushingYDs = rushingYDs;
+            RushingTDs = rushingTDs;
             RushingFUMs = rushingFUMs;
+
+            Receptions = receptions;
+            ReceivingYDs = receivingYDs;
+            ReceivingTDs = receivingTDs;
+
         }
     }
 }

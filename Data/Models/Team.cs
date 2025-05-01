@@ -27,14 +27,12 @@ namespace Data.Models
 
         public string StadiumName { get; }
 
-        public Team(int teamID, int divisionID, int conferenceID, int divisionSeeding, int conferenceSeeding,
+        public Team(int teamID, int divisionID, int conferenceID,
             string city, string state, string name, string stadiumName)
         {
             TeamID = teamID;
             DivisionID = divisionID;
             ConferenceID = conferenceID;
-            DivisionSeeding = divisionSeeding;
-            ConferenceSeeding = conferenceSeeding;
             City = city;
             State = state;
             Name = name;

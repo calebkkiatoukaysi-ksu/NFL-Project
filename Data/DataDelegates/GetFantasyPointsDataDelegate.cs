@@ -20,7 +20,8 @@ namespace Data.DataDelegates
                     reader.GetString("FirstName"),
                     reader.GetString("LastName"),
                     reader.GetString("MainPosition"),
-                    reader.GetInt32("TotalFantasyPoints")));
+                    reader.GetDecimal("TotalFantasyPoints"),
+                    reader.GetInt64("PositionRank")));
             }
 
             return fantasyPTS;

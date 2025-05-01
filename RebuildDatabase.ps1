@@ -30,10 +30,10 @@ Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "Data\Schem
 Write-Host "Creating tables..."
 Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "Data\SQL\Tables.sql"
 
-<#
+
 Write-Host "Stored procedures..."
-Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "[FILEPATH]"
-#>
+Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile ".\Data\SQL\Queries.sql"
+Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile ".\Data\SQL\StoredProcedures.sql"
 
 
 Write-Host "Inserting data..."

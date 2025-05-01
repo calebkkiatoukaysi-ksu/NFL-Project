@@ -49,28 +49,44 @@ END;
 GO
 
 -- =====================================
--- Update Offensive Stats (Passing Yards and TDs)
+-- Update Offensive Stats (All Stats)
 -- =====================================
 CREATE PROCEDURE NFL.UpdateOffensiveStats
     @FIRSTNAME NVARCHAR(50),
     @LASTNAME NVARCHAR(50),
     @TEAMID INT,
-    @PASSINGYDS INT,
-    @PASSINGTDS INT
+    @PASSINGYDS INT = 0,
+    @PASSINGTDS INT = 0,
+    @RECEIVINGYDS INT = 0,
+    @RECEIVINGTDS INT = 0,
+    @RUSHINGYDS INT = 0,
+    @RUSHINGTDS INT = 0,
+    @RECEPTIONS INT = 0,
+    @CARRIES INT = 0,
+    @RUSHINGFUMS INT = 0,
+    @PASSINGINTS INT = 0
 AS
 BEGIN
     UPDATE OS
     SET 
-        PassingYds = OS.PassingYds + @PASSINGYDS,
-        PassingTDs = OS.PassingTDs + @PASSINGTDS
+        PassingYds   = OS.PassingYds + @PASSINGYDS,
+        PassingTDs   = OS.PassingTDs + @PASSINGTDS,
+        ReceivingYds = OS.ReceivingYds + @RECEIVINGYDS,
+        ReceivingTDs = OS.ReceivingTDs + @RECEIVINGTDS,
+        RushingYds   = OS.RushingYds + @RUSHINGYDS,
+        RushingTDs   = OS.RushingTDs + @RUSHINGTDS,
+        Receptions   = OS.Receptions + @RECEPTIONS,
+        Carries      = OS.Carries + @CARRIES,
+        RushingFUMs  = OS.RushingFUMs + @RUSHINGFUMS,
+        PassingINTs  = OS.PassingINTs + @PASSINGINTS
     FROM NFL.OffensiveStats OS
     JOIN NFL.PlayerTeam PT ON OS.PlayerTeamID = PT.PlayerTeamID
     JOIN NFL.Player P ON PT.PlayerID = P.PlayerID
-    WHERE P.FirstName = @FIRSTNAME AND P.LastName = @LASTNAME
+    WHERE P.FirstName = @FIRSTNAME 
+      AND P.LastName = @LASTNAME
       AND PT.TeamID = @TEAMID;
 END;
 GO
-
 
 
 

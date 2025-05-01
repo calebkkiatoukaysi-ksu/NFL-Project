@@ -88,9 +88,9 @@ CREATE TABLE NFL.Team (
     TeamID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
     DivisionID INT NOT NULL,
     ConferenceID INT NOT NULL,
-    DivisionSeeding INT NOT NULL,
-    ConferenceSeeding INT NOT NULL,
-    IsConferenceChamp NVARCHAR(50) NOT NULL, --True or False
+    DivisionSeeding INT NULL,
+    ConferenceSeeding INT NULL,
+    IsConferenceChamp NVARCHAR(50) NULL, --True or False
     City NVARCHAR(50),
     [State] NVARCHAR(50),
     [Name] NVARCHAR(50),

@@ -1,0 +1,37 @@
+﻿@page
+@model ConferenceStatsModel
+@{
+    ViewData["Title"] = "Conference Stats";
+}
+
+<!-- Page Header -->
+<h1 class="text-center mb-4">Conference Stats</h1>
+
+<!-- Table -->
+<div class="container">
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Conference</th>
+                <th>Total Yards</th>
+                <th>Passing Yards</th>
+                <th>Rushing Yards</th>
+                <th>Receiving Yards</th>
+                <th>Total Touchdowns</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var stat in Model.Conferences)
+            {
+                <tr>
+                    <td>@stat.ConferenceName</td>
+                    <td>@stat.TotalYDs</td>
+                    <td>@stat.PassingYDs</td>
+                    <td>@stat.RushingYDs</td>
+                    <td>@stat.PassingYDs</td>
+                    <td>@stat.TotalTDs</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

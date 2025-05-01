@@ -1,4 +1,5 @@
 --FIRST TRY SHOULD BE MOVED TO PROCEDURES IF DESIRED FOR FUNCTIONALITY
+
 CREATE OR ALTER PROCEDURE NFL.GetNFCTeams
 AS
     SELECT 
@@ -128,6 +129,7 @@ Group By p.Weight
 Order By PlayerCount DESC, AverageYDs DESC
 GO
 
+--Gets the fantasy points of a given player
 CREATE OR ALTER PROCEDURE NFL.GetFantasyPoints
 AS
     SELECT 
@@ -143,7 +145,17 @@ AS
             (o.Receptions * 1.0) -
             (o.PassingINTs * 2.0) -
             (o.RushingFUMs * 2.0)
-        ) AS TotalFantasyPoints
+        ) AS TotalFantasyPoints,
+        RANK() Over(PARTITION BY p.MainPosition Order By SUM(
+            (o.PassingTDs * 4.0) +
+            (o.RushingTDs * 6.0) +
+            (o.ReceivingTDs * 6.0) +
+            (o.PassingYDs * 0.04) +
+            ((o.RushingYDs + o.ReceivingYDs) / 10.0) +
+            (o.Receptions * 1.0) -
+            (o.PassingINTs * 2.0) -
+            (o.RushingFUMs * 2.0)
+        )) AS PositionRank
     FROM NFL.Player p
     INNER JOIN NFL.PlayerTeam pt ON p.PlayerId = pt.PlayerId
     INNER JOIN NFL.OffensiveStats o ON pt.PlayerTeamId = o.PlayerTeamId

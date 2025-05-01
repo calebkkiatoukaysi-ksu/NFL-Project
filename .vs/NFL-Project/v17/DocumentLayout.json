@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\",
+  "WorkspaceRootPath": "C:\\Users\\barak\\source\\repos\\NFL-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\barak\\source\\repos\\NFL-Project\\Data\\Data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedHeight": 79,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -24,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Data.csproj",
-              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Data.csproj",
+              "DocumentMoniker": "C:\\Users\\barak\\source\\repos\\NFL-Project\\Data\\Data.csproj",
               "RelativeDocumentMoniker": "Data\\Data.csproj",
-              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Data.csproj",
+              "ToolTip": "C:\\Users\\barak\\source\\repos\\NFL-Project\\Data\\Data.csproj",
               "RelativeToolTip": "Data\\Data.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-04-30T13:33:08.282Z",
               "EditorCaption": ""

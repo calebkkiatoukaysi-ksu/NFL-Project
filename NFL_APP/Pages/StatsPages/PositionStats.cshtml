@@ -1,0 +1,60 @@
+﻿@page
+@model NFL_APP.Pages.StatsPages.PositionStatsModel
+
+<h1 class="text-center mb-4">Position Stats</h1>
+
+<div class="text-center mb-4">
+    <form method="post" asp-page-handler="GetPositionStats" style="display:inline;">
+        <input type="hidden" name="position" value="QB" />
+        <button type="submit" class="btn @(Model.SelectedPosition == "QB" ? "btn-primary" : "btn-outline-primary")">Quarterback</button>
+    </form>
+    <form method="post" asp-page-handler="GetPositionStats" style="display:inline;">
+        <input type="hidden" name="position" value="RB" />
+        <button type="submit" class="btn @(Model.SelectedPosition == "RB" ? "btn-secondary" : "btn-outline-secondary")">Running Back</button>
+    </form>
+    <form method="post" asp-page-handler="GetPositionStats" style="display:inline;">
+        <input type="hidden" name="position" value="WR" />
+        <button type="submit" class="btn @(Model.SelectedPosition == "WR" ? "btn-success" : "btn-outline-success")">Wide Receiver</button>
+    </form>
+    <form method="post" asp-page-handler="GetPositionStats" style="display:inline;">
+        <input type="hidden" name="position" value="TE" />
+        <button type="submit" class="btn @(Model.SelectedPosition == "TE" ? "btn-warning" : "btn-outline-warning")">Tight End</button>
+    </form>
+    <form method="post" asp-page-handler="GetPositionStats" style="display:inline;">
+        <input type="hidden" name="position" value="Other" />
+        <button type="submit" class="btn @(Model.SelectedPosition == "Other" ? "btn-info" : "btn-outline-info")">Other</button>
+    </form>
+</div>
+
+<div id="statsTable">
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                @foreach (var header in Model.TableHeaders)
+                {
+                    <th>@header</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var stat in Model.Stats)
+            {
+                <tr>
+                    <td>@stat.PlayerName</td>
+                    <td>@stat.MainPosition</td>
+                    <td>@stat.PassingYDs</td>
+                    <td>@stat.PassingTDs</td>
+                    <td>@stat.PassingINTs</td>
+                    <td>@stat.Carries</td>
+                    <td>@stat.RushingYDs</td>
+                    <td>@stat.RushingTDs</td>
+                    <td>@stat.RushingFUMs</td>
+                    <td>@stat.Receptions</td>
+                    <td>@stat.ReceivingYDs</td>
+                    <td>@stat.ReceivingTDs</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

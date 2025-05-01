@@ -34,6 +34,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/KONGM/source/repos/NFL-Project/NFL_APP/Pages/StatsPages/ConferenceStats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHNQYWdlc1xDb25mZXJlbmNlU3RhdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KONGM/source/repos/NFL-Project/NFL_APP/Pages/StatsPages/DivisionStats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHNQYWdlc1xEaXZpc2lvblN0YXRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KONGM/source/repos/NFL-Project/NFL_APP/Pages/StatsPages/PositionStats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHNQYWdlc1xQb3NpdGlvblN0YXRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KONGM/source/repos/NFL-Project/NFL_APP/Pages/StatsPages/TeamStats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHNQYWdlc1xUZWFtU3RhdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/KONGM/source/repos/NFL-Project/NFL_APP/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

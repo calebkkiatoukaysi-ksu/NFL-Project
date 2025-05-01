@@ -3,10 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sqlstatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\conferencestats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\conferencestats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\conferencestats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\conferencestats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\divisionstats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\divisionstats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\datadelegates\\positionstatsdatadelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\positionstats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\positionstats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\positionstats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\positionstats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sqlstatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\models\\positionstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -15,19 +35,7 @@
       "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\queries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\positionstats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\positionstats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\storedprocedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\positionstats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\positionstats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\divisionstats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\divisionstats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\teamstats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -41,16 +49,8 @@
       "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\models\\teamstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\conferencestats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\conferencestats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\teamstats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\teamstats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\statspages\\conferencestats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\conferencestats.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\nfl_app\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -163,7 +163,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 79,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -171,20 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PositionStats.cs",
-              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\PositionStats.cs",
-              "RelativeDocumentMoniker": "..\\Data\\Models\\PositionStats.cs",
-              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\PositionStats.cs",
-              "RelativeToolTip": "..\\Data\\Models\\PositionStats.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:31:46.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PositionStatsDataDelegate.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\DataDelegates\\PositionStatsDataDelegate.cs",
               "RelativeDocumentMoniker": "..\\Data\\DataDelegates\\PositionStatsDataDelegate.cs",
@@ -203,53 +190,27 @@
               "RelativeDocumentMoniker": "Pages\\StatsPages\\PositionStats.cshtml",
               "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\PositionStats.cshtml",
               "RelativeToolTip": "Pages\\StatsPages\\PositionStats.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-01T16:56:42.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "PositionStats.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\PositionStats.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\StatsPages\\PositionStats.cshtml.cs",
               "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\PositionStats.cshtml.cs",
               "RelativeToolTip": "Pages\\StatsPages\\PositionStats.cshtml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBwAAABIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T16:57:02.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TeamStats.cshtml",
-              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\TeamStats.cshtml",
-              "RelativeDocumentMoniker": "Pages\\StatsPages\\TeamStats.cshtml",
-              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\TeamStats.cshtml",
-              "RelativeToolTip": "Pages\\StatsPages\\TeamStats.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T16:46:53.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DivisionStats.cshtml",
-              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\DivisionStats.cshtml",
-              "RelativeDocumentMoniker": "Pages\\StatsPages\\DivisionStats.cshtml",
-              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\DivisionStats.cshtml",
-              "RelativeToolTip": "Pages\\StatsPages\\DivisionStats.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T16:41:15.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "DivisionStats.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\DivisionStats.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\StatsPages\\DivisionStats.cshtml.cs",
@@ -262,12 +223,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "SqlStatsRepository.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SqlStatsRepository.cs",
               "RelativeDocumentMoniker": "..\\Data\\SqlStatsRepository.cs",
-              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SqlStatsRepository.cs*",
-              "RelativeToolTip": "..\\Data\\SqlStatsRepository.cs*",
+              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SqlStatsRepository.cs",
+              "RelativeToolTip": "..\\Data\\SqlStatsRepository.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAzwCoAAAB7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T15:34:53.283Z",
@@ -275,20 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TeamStats.cs",
-              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\TeamStats.cs",
-              "RelativeDocumentMoniker": "..\\Data\\Models\\TeamStats.cs",
-              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\TeamStats.cs",
-              "RelativeToolTip": "..\\Data\\Models\\TeamStats.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:36:33.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "ConferenceStats.cshtml",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\ConferenceStats.cshtml",
               "RelativeDocumentMoniker": "Pages\\StatsPages\\ConferenceStats.cshtml",
@@ -297,6 +245,71 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-01T16:23:03.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConferenceStats.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\ConferenceStats.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\StatsPages\\ConferenceStats.cshtml.cs",
+              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\ConferenceStats.cshtml.cs",
+              "RelativeToolTip": "Pages\\StatsPages\\ConferenceStats.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:25:21.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DivisionStats.cshtml",
+              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\DivisionStats.cshtml",
+              "RelativeDocumentMoniker": "Pages\\StatsPages\\DivisionStats.cshtml",
+              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\DivisionStats.cshtml",
+              "RelativeToolTip": "Pages\\StatsPages\\DivisionStats.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T16:41:15.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TeamStats.cshtml",
+              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\TeamStats.cshtml",
+              "RelativeDocumentMoniker": "Pages\\StatsPages\\TeamStats.cshtml",
+              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\TeamStats.cshtml",
+              "RelativeToolTip": "Pages\\StatsPages\\TeamStats.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T16:46:53.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PositionStats.cs",
+              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\PositionStats.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Models\\PositionStats.cs",
+              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\PositionStats.cs",
+              "RelativeToolTip": "..\\Data\\Models\\PositionStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T04:31:46.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TeamStats.cs",
+              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\TeamStats.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Models\\TeamStats.cs",
+              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\TeamStats.cs",
+              "RelativeToolTip": "..\\Data\\Models\\TeamStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T23:36:33.535Z",
               "EditorCaption": ""
             },
             {
@@ -313,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "TeamStats.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\TeamStats.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\StatsPages\\TeamStats.cshtml.cs",
@@ -335,19 +348,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-01T16:40:42.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ConferenceStats.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\ConferenceStats.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\StatsPages\\ConferenceStats.cshtml.cs",
-              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\ConferenceStats.cshtml.cs",
-              "RelativeToolTip": "Pages\\StatsPages\\ConferenceStats.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:25:21.93Z",
               "EditorCaption": ""
             },
             {
@@ -708,7 +708,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Queries.sql ",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\Queries.sql",
               "RelativeDocumentMoniker": "..\\Data\\SQL\\Queries.sql",
@@ -720,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "StoredProcedures.sql ",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\StoredProcedures.sql",
               "RelativeDocumentMoniker": "..\\Data\\SQL\\StoredProcedures.sql",

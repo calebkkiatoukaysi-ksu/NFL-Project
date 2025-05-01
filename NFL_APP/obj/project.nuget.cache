@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4AgMwXRZNT94CMm79PN5Uq4H1Dol8mNV/mk3vrKpGoLu0UZxv8svx8xCfprlB7SnjuaTOczWIYaIEhBlDUZhqg==",
+  "dgSpecHash": "88kIMu/J03TZTAX3VsxlaElDHONo8YPC1tr3mjBJCe41Nhk0S239EEYPaloYZy0XaK9wV8fcMWBppiBAwDMiSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KONGM\\Source\\Repos\\NFL-Project\\NFL_APP\\NFL_APP.csproj",
+  "projectFilePath": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\NFL_APP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KONGM\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\KONGM\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

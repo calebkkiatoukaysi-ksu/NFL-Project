@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NFL_APP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80d19a1ec9f5c0270c5bcc8afb739600f8120231")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da63042d46f4a04c8daba109471263cd5cafae7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("NFL_APP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NFL_APP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

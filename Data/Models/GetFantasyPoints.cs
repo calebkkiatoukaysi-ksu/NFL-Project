@@ -14,14 +14,17 @@ namespace Data.Models
 
         public string Position { get; }
 
-        public int TotalFantasyPoints { get; }
+        public decimal TotalFantasyPoints { get; }
 
-        public GetFantasyPoints(string firstName, string lastName, string position, int totalFantasyPoints)
+        public long PositionRank { get; }
+
+        public GetFantasyPoints(string firstName, string lastName, string position, decimal totalFantasyPoints, long posRank)
         {
             FirstName = firstName;
             LastName = lastName;
             Position = position;
             TotalFantasyPoints = totalFantasyPoints;
+            PositionRank = posRank;
         }
     }
 }

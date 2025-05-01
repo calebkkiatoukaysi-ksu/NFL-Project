@@ -13,12 +13,22 @@ namespace DataAccess
          return reader.Read();
       }
 
-      public int GetInt32(string name)
+        public decimal GetDecimal(string name)
+        {
+            return GetValue(name, reader.GetDecimal);
+        }
+
+        public int GetInt32(string name)
       {
          return GetValue(name, reader.GetInt32);
       }
 
-      public byte GetByte(string name)
+        public long GetInt64(string name)
+        {
+            return GetValue(name, reader.GetInt64);
+        }
+
+        public byte GetByte(string name)
       {
          return GetValue(name, reader.GetByte);
       }
@@ -55,7 +65,7 @@ namespace DataAccess
          return (T)reader.GetValue(GetOrdinal(name));
       }
 
-      private int GetOrdinal(string name)
+        private int GetOrdinal(string name)
       {
          try
          {

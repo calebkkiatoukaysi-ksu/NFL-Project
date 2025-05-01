@@ -1,0 +1,40 @@
+﻿@page
+@model NFL_APP.Pages.StatsPages.FantasyPointsModel
+@{
+    ViewData["Title"] = "Fantasy Points";
+}
+<!-- Page Header -->
+<h1 class="text-center mb-4">Division Stats</h1>
+
+<!-- Table -->
+<div class="container">
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Overall Ranking</th>
+                <th>Position Ranking</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Position</th>
+                <th>Total Fantasy Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int rank = 1;
+            }
+            @foreach (var stat in Model.FantasyPTS)
+            {
+                <tr>
+                    <td>@rank</td>
+                    <td>@stat.PositionRank</td>
+                    <td>@stat.FirstName</td>
+                    <td>@stat.LastName</td>
+                    <td>@stat.Position</td>
+                    <td>@stat.TotalFantasyPoints</td>
+                </tr>
+                rank++;
+            }
+        </tbody>
+    </table>
+</div>

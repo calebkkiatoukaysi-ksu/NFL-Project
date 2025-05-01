@@ -3,6 +3,11 @@
    public interface IDataRowReader
    {
       bool Read();
+
+      decimal GetDecimal(string name);
+
+        long GetInt64(string name);
+        
       bool GetBoolean(string name);
       byte GetByte(string name);
       DateTime GetDateTime(string name, DateTimeKind kind);

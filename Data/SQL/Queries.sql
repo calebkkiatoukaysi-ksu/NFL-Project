@@ -155,7 +155,7 @@ AS
             (o.Receptions * 1.0) -
             (o.PassingINTs * 2.0) -
             (o.RushingFUMs * 2.0)
-        )) AS PositionRank
+        )DESC) AS PositionRank
     FROM NFL.Player p
     INNER JOIN NFL.PlayerTeam pt ON p.PlayerId = pt.PlayerId
     INNER JOIN NFL.OffensiveStats o ON pt.PlayerTeamId = o.PlayerTeamId

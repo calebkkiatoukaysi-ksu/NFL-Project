@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{1EBC21B4-818A-400C-B53B-2A99953E57BF}|NFL_APP.csproj|solutionrelative:pages\\statspages\\fantasypoints.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\queries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E548BB3B-C0DA-4C5D-8A02-9EB07F51AB9A}|..\\DataAccess\\DataAccess.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\dataaccess\\datarowreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,9 +53,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\models\\getfantasypoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\queries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E548BB3B-C0DA-4C5D-8A02-9EB07F51AB9A}|..\\DataAccess\\DataAccess.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\dataaccess\\datareaderdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -180,9 +180,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\queries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\storedprocedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -200,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DataRowReader.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\DataRowReader.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\DataRowReader.cs",
@@ -208,8 +205,7 @@
               "RelativeToolTip": "..\\DataAccess\\DataRowReader.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:40:18.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T20:40:18.502Z"
             },
             {
               "$type": "Document",
@@ -219,14 +215,14 @@
               "RelativeDocumentMoniker": "Pages\\StatsPages\\FantasyPoints.cshtml",
               "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\NFL_APP\\Pages\\StatsPages\\FantasyPoints.cshtml",
               "RelativeToolTip": "Pages\\StatsPages\\FantasyPoints.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-01T20:36:32.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IDataReaderDelegate.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\IDataReaderDelegate.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\IDataReaderDelegate.cs",
@@ -234,12 +230,11 @@
               "RelativeToolTip": "..\\DataAccess\\IDataReaderDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:48:57.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T20:48:57.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SqlCommandExecutor.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\SqlCommandExecutor.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\SqlCommandExecutor.cs",
@@ -247,12 +242,11 @@
               "RelativeToolTip": "..\\DataAccess\\SqlCommandExecutor.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAA1wCcAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T15:27:39.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T15:27:39.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RecordNotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\RecordNotFoundException.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\RecordNotFoundException.cs",
@@ -260,12 +254,11 @@
               "RelativeToolTip": "..\\DataAccess\\RecordNotFoundException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T21:10:30.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T21:10:30.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Command.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\Command.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Command.cs",
@@ -273,12 +266,11 @@
               "RelativeToolTip": "..\\DataAccess\\Command.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T21:10:27.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T21:10:27.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IDataDelegate.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\IDataDelegate.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\IDataDelegate.cs",
@@ -286,12 +278,11 @@
               "RelativeToolTip": "..\\DataAccess\\IDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:47:41.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T20:47:41.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GetFantasyPointsDataDelegate.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\DataDelegates\\GetFantasyPointsDataDelegate.cs",
               "RelativeDocumentMoniker": "..\\Data\\DataDelegates\\GetFantasyPointsDataDelegate.cs",
@@ -299,12 +290,11 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\GetFantasyPointsDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:39:07.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T20:39:07.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IDataRowReader.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\DataAccess\\IDataRowReader.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\IDataRowReader.cs",
@@ -312,12 +302,11 @@
               "RelativeToolTip": "..\\DataAccess\\IDataRowReader.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:47:43.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T20:47:43.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Division.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\Division.cs",
               "RelativeDocumentMoniker": "..\\Data\\Models\\Division.cs",
@@ -325,12 +314,11 @@
               "RelativeToolTip": "..\\Data\\Models\\Division.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T00:14:21.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T00:14:21.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "WeightStats.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\WeightStats.cs",
               "RelativeDocumentMoniker": "..\\Data\\Models\\WeightStats.cs",
@@ -338,12 +326,11 @@
               "RelativeToolTip": "..\\Data\\Models\\WeightStats.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:44:24.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T23:44:24.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "TeamStats.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\TeamStats.cs",
               "RelativeDocumentMoniker": "..\\Data\\Models\\TeamStats.cs",
@@ -351,12 +338,11 @@
               "RelativeToolTip": "..\\Data\\Models\\TeamStats.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:36:33.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T23:36:33.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Team.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\Team.cs",
               "RelativeDocumentMoniker": "..\\Data\\Models\\Team.cs",
@@ -364,12 +350,11 @@
               "RelativeToolTip": "..\\Data\\Models\\Team.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:33:46.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T23:33:46.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PositionStats.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\PositionStats.cs",
               "RelativeDocumentMoniker": "..\\Data\\Models\\PositionStats.cs",
@@ -377,12 +362,11 @@
               "RelativeToolTip": "..\\Data\\Models\\PositionStats.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:31:46.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T04:31:46.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ConferenceStatsDataDelegate.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\DataDelegates\\ConferenceStatsDataDelegate.cs",
               "RelativeDocumentMoniker": "..\\Data\\DataDelegates\\ConferenceStatsDataDelegate.cs",
@@ -390,12 +374,11 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\ConferenceStatsDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T02:02:36.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T02:02:36.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "GetFantasyPoints.cs",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\GetFantasyPoints.cs",
               "RelativeDocumentMoniker": "..\\Data\\Models\\GetFantasyPoints.cs",
@@ -403,8 +386,7 @@
               "RelativeToolTip": "..\\Data\\Models\\GetFantasyPoints.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T00:10:46.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T00:10:46.455Z"
             },
             {
               "$type": "Document",
@@ -416,8 +398,7 @@
               "RelativeToolTip": "..\\DataAccess\\DataReaderDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:40:14.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T20:40:14.463Z"
             },
             {
               "$type": "Document",
@@ -429,8 +410,7 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\InsertPlayerDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T00:17:00.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T00:17:00.81Z"
             },
             {
               "$type": "Document",
@@ -442,8 +422,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\FantasyPoints.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:37:26.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T20:37:26.386Z"
             },
             {
               "$type": "Document",
@@ -455,8 +434,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\DivisionStats.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T16:41:15.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:41:15.431Z"
             },
             {
               "$type": "Document",
@@ -468,8 +446,7 @@
               "RelativeToolTip": "..\\Data\\Models\\ConferenceTeams.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:52:57.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:52:57.33Z"
             },
             {
               "$type": "Document",
@@ -481,8 +458,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\DivisionStats.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:41:28.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:41:28.606Z"
             },
             {
               "$type": "Document",
@@ -494,8 +470,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\ConferenceStats.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:25:21.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:25:21.93Z"
             },
             {
               "$type": "Document",
@@ -507,8 +482,7 @@
               "RelativeToolTip": "..\\Data\\SqlStatsRepository.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAuwCoAAAB7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T15:34:53.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T15:34:53.283Z"
             },
             {
               "$type": "Document",
@@ -825,9 +799,9 @@
               "$type": "Document",
               "DocumentIndex": 52,
               "Title": "Data.csproj",
-              "DocumentMoniker": "C:\\Users\\KONGM\\Source\\Repos\\NFL-Project\\Data\\Data.csproj",
+              "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Data.csproj",
               "RelativeDocumentMoniker": "..\\Data\\Data.csproj",
-              "ToolTip": "C:\\Users\\KONGM\\Source\\Repos\\NFL-Project\\Data\\Data.csproj",
+              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Data.csproj",
               "RelativeToolTip": "..\\Data\\Data.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -868,7 +842,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
               "Title": "Queries.sql ",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\Queries.sql",
               "RelativeDocumentMoniker": "..\\Data\\SQL\\Queries.sql",
@@ -881,14 +855,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "StoredProcedures.sql ",
+              "Title": "StoredProcedures.sql",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\StoredProcedures.sql",
               "RelativeDocumentMoniker": "..\\Data\\SQL\\StoredProcedures.sql",
               "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\StoredProcedures.sql",
               "RelativeToolTip": "..\\Data\\SQL\\StoredProcedures.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-01T14:40:45.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:40:45.32Z"
             }
           ]
         }

@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Data",
+    "\\NFL_APP",
+    "\\NFL_APP\\Pages",
+    "\\NFL_APP\\Pages\\StatsPages"
   ],
+  "SelectedNode": "\\NFL_APP\\Pages\\StatsPages\\FantasyPoints.cshtml",
   "PreviewInSolutionExplorer": false
 }

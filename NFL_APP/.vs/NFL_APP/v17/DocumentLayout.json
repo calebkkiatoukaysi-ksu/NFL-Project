@@ -267,16 +267,7 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\Models\\PlayerStats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\queries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\storedprocedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{351CDF8B-F2BF-4715-A3D1-8248EFF75655}|..\\Data\\Data.csproj|c:\\users\\kongm\\source\\repos\\nfl-project\\data\\sql\\insertion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -302,8 +293,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\CreatePlayerUpdateStats.cshtml.cs",
               "ViewState": "AQIAAFgAAAAAAAAAAAAgwHIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T07:04:21.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T07:04:21.689Z"
             },
             {
               "$type": "Document",
@@ -315,8 +305,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\ConferenceStats.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T16:23:03.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:23:03.076Z"
             },
             {
               "$type": "Document",
@@ -328,20 +317,18 @@
               "RelativeToolTip": "Pages\\StatsPages\\HeightWeightStats.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T01:07:29.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T01:07:29.246Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Queries.sql ",
+              "Title": "Queries.sql",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\Queries.sql",
               "RelativeDocumentMoniker": "..\\Data\\SQL\\Queries.sql",
               "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\Queries.sql",
               "RelativeToolTip": "..\\Data\\SQL\\Queries.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-02T03:27:13.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T03:27:13.198Z"
             },
             {
               "$type": "Document",
@@ -349,8 +336,8 @@
               "Title": "StoredProcedures.sql ",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\StoredProcedures.sql",
               "RelativeDocumentMoniker": "..\\Data\\SQL\\StoredProcedures.sql",
-              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\StoredProcedures.sql*",
-              "RelativeToolTip": "..\\Data\\SQL\\StoredProcedures.sql*",
+              "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\StoredProcedures.sql",
+              "RelativeToolTip": "..\\Data\\SQL\\StoredProcedures.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-05-02T04:08:57.929Z",
               "EditorCaption": ""
@@ -365,8 +352,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\ConferenceStats.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:25:21.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:25:21.93Z"
             },
             {
               "$type": "Document",
@@ -378,8 +364,7 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\UpdateOffensiveStatsDataDelegate.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAACBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T05:21:29.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T05:21:29.104Z"
             },
             {
               "$type": "Document",
@@ -391,8 +376,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\CreatePlayerUpdateStats.cshtml",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAIIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T07:00:58.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T07:00:58.175Z"
             },
             {
               "$type": "Document",
@@ -404,8 +388,7 @@
               "RelativeToolTip": "Pages\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T07:30:50.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T07:30:50.452Z"
             },
             {
               "$type": "Document",
@@ -417,8 +400,7 @@
               "RelativeToolTip": "..\\Data\\Models\\Player.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:37:44.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T23:37:44.309Z"
             },
             {
               "$type": "Document",
@@ -430,8 +412,7 @@
               "RelativeToolTip": "Pages\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T07:30:36.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T07:30:36.862Z"
             },
             {
               "$type": "Document",
@@ -443,8 +424,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\DivisionStats.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T16:41:15.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:41:15.431Z"
             },
             {
               "$type": "Document",
@@ -456,8 +436,7 @@
               "RelativeToolTip": "..\\Data\\SqlStatsRepository.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAqwGwAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T03:03:05.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T03:03:05.554Z"
             },
             {
               "$type": "Document",
@@ -469,8 +448,7 @@
               "RelativeToolTip": "..\\Data\\Models\\PhysicalStats.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T01:27:54.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T01:27:54.947Z"
             },
             {
               "$type": "Document",
@@ -482,8 +460,7 @@
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:14:46.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:14:46.026Z"
             },
             {
               "$type": "Document",
@@ -495,8 +472,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\PositionStats.cshtml.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:57:02.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:57:02.362Z"
             },
             {
               "$type": "Document",
@@ -508,8 +484,7 @@
               "RelativeToolTip": "Pages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T16:14:48.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:14:48.726Z"
             },
             {
               "$type": "Document",
@@ -521,8 +496,7 @@
               "RelativeToolTip": "Pages\\League\\ViewTeams.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T03:08:15.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T03:08:15.576Z"
             },
             {
               "$type": "Document",
@@ -534,8 +508,7 @@
               "RelativeToolTip": "Pages\\League\\League.cshtml.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T02:21:19.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T02:21:19.729Z"
             },
             {
               "$type": "Document",
@@ -547,8 +520,7 @@
               "RelativeToolTip": "Pages\\League\\DivisionsAndConferences.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T06:46:07.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T06:46:07.707Z"
             },
             {
               "$type": "Document",
@@ -560,8 +532,7 @@
               "RelativeToolTip": "Pages\\League\\DivisionsAndConferences.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T06:47:40.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T06:47:40.293Z"
             },
             {
               "$type": "Document",
@@ -573,8 +544,7 @@
               "RelativeToolTip": "Pages\\League\\League.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T02:06:36.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T02:06:36.08Z"
             },
             {
               "$type": "Document",
@@ -586,8 +556,7 @@
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T01:06:30.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T01:06:30.214Z"
             },
             {
               "$type": "Document",
@@ -599,8 +568,7 @@
               "RelativeToolTip": "..\\DataAccess\\SqlCommandExecutor.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAkwCYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T15:27:39.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T15:27:39.948Z"
             },
             {
               "$type": "Document",
@@ -612,8 +580,7 @@
               "RelativeToolTip": "..\\Data\\SqlTeamRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAChAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T03:03:07.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T03:03:07.223Z"
             },
             {
               "$type": "Document",
@@ -625,8 +592,7 @@
               "RelativeToolTip": "Pages\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T06:57:57.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T06:57:57.469Z"
             },
             {
               "$type": "Document",
@@ -638,8 +604,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\FantasyPoints.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T20:36:32.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T20:36:32.263Z"
             },
             {
               "$type": "Document",
@@ -651,8 +616,7 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\GetDivisionsAndConferencesDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T06:41:03.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T06:41:03.873Z"
             },
             {
               "$type": "Document",
@@ -664,8 +628,7 @@
               "RelativeToolTip": "..\\Data\\Models\\GetDivisionsAndConferences.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T06:37:06.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T06:37:06.646Z"
             },
             {
               "$type": "Document",
@@ -677,8 +640,7 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\InsertDivisionDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T23:38:52.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T23:38:52.082Z"
             },
             {
               "$type": "Document",
@@ -690,8 +652,7 @@
               "RelativeToolTip": "..\\DataAccess\\IDataRowReader.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:47:43.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T20:47:43.016Z"
             },
             {
               "$type": "Document",
@@ -703,8 +664,7 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\GetAllTeamsDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAD4vwoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T00:30:44.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T00:30:44.561Z"
             },
             {
               "$type": "Document",
@@ -716,8 +676,7 @@
               "RelativeToolTip": "Pages\\League\\ViewTeams.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T03:07:34.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T03:07:34.337Z"
             },
             {
               "$type": "Document",
@@ -729,20 +688,18 @@
               "RelativeToolTip": "..\\Data\\Models\\DivisionStats.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:37:40.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T23:37:40.477Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "Insertion.sql ",
+              "Title": "Insertion.sql",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\Insertion.sql",
               "RelativeDocumentMoniker": "..\\Data\\SQL\\Insertion.sql",
               "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\Insertion.sql",
               "RelativeToolTip": "..\\Data\\SQL\\Insertion.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-02T06:21:42.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T06:21:42.354Z"
             },
             {
               "$type": "Document",
@@ -754,8 +711,7 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\WeightStatsDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T02:51:31.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T02:51:31.946Z"
             },
             {
               "$type": "Document",
@@ -767,8 +723,7 @@
               "RelativeToolTip": "..\\Data\\Models\\PositionStats.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAA5wBcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:31:46.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T04:31:46.578Z"
             },
             {
               "$type": "Document",
@@ -780,8 +735,7 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\InsertPlayerDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T00:17:00.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T00:17:00.81Z"
             },
             {
               "$type": "Document",
@@ -793,8 +747,7 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\InsertTeamDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:32:23.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T23:32:23.647Z"
             },
             {
               "$type": "Document",
@@ -806,8 +759,7 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\InsertConferenceDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T23:28:39.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T23:28:39.423Z"
             },
             {
               "$type": "Document",
@@ -819,8 +771,7 @@
               "RelativeToolTip": "..\\Data\\Models\\ConferenceStats.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:53:17.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:53:17.133Z"
             },
             {
               "$type": "Document",
@@ -832,8 +783,7 @@
               "RelativeToolTip": "..\\Data\\Models\\Conference.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T00:14:17.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T00:14:17.512Z"
             },
             {
               "$type": "Document",
@@ -845,8 +795,7 @@
               "RelativeToolTip": "..\\Data\\DataDelegates\\ConferenceStatsDataDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T02:02:36.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T02:02:36.87Z"
             },
             {
               "$type": "Document",
@@ -858,8 +807,7 @@
               "RelativeToolTip": "..\\Data\\Models\\ConferenceTeams.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:52:57.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:52:57.33Z"
             },
             {
               "$type": "Document",
@@ -871,20 +819,18 @@
               "RelativeToolTip": "Pages\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T16:40:42.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:40:42.521Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
-              "Title": "Tables.sql ",
+              "Title": "Tables.sql",
               "DocumentMoniker": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\Tables.sql",
               "RelativeDocumentMoniker": "..\\Data\\SQL\\Tables.sql",
               "ToolTip": "C:\\Users\\KONGM\\source\\repos\\NFL-Project\\Data\\SQL\\Tables.sql",
               "RelativeToolTip": "..\\Data\\SQL\\Tables.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-01T05:08:50.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T05:08:50.759Z"
             },
             {
               "$type": "Document",
@@ -896,8 +842,7 @@
               "RelativeToolTip": "Pages\\StatsPages\\PositionStats.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T16:56:42.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:56:42.179Z"
             },
             {
               "$type": "Document",

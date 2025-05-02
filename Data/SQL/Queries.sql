@@ -34,6 +34,24 @@ AS
         ConferenceSeeding ASC;
 GO
 
+CREATE OR ALTER PROCEDURE NFL.GetAllTeams
+AS
+BEGIN
+    SELECT 
+        ConferenceSeeding, 
+        IsConferenceChamp, 
+        City, 
+        [State], 
+        [Name], 
+        StadiumName
+    FROM NFL.Team
+    ORDER BY 
+        IsConferenceChamp DESC, 
+        ConferenceSeeding ASC;
+END;
+GO
+
+
 
 -- Default Query
 CREATE OR ALTER PROCEDURE NFL.GetPositionStats
@@ -71,6 +89,17 @@ BEGIN
     WHERE 
         (@Position IN (N'QB', N'RB', N'WR', N'TE') AND p.MainPosition = @Position)
         OR (@Position = N'Other' AND p.MainPosition NOT IN (N'QB', N'RB', N'WR', N'TE'));
+END
+GO
+
+
+CREATE PROCEDURE NFL.GetDivisionsAndConferences
+AS
+BEGIN
+    SELECT D.DivisionName, C.ConferenceName
+    FROM NFL.Conference C
+    INNER JOIN NFL.Division D ON D.ConferenceID = C.ConferenceID
+    GROUP BY C.ConferenceName, D.DivisionName
 END
 GO
 

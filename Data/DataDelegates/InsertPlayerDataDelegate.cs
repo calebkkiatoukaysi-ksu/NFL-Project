@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Data.DataDelegates
 {
-    internal class InsertPlayerDataDelegate(string firstName, string lastName, int height, int weight, string mainPos) 
+    internal class InsertPlayerDataDelegate(string firstName, string lastName, int height, int weight, string mainPos, int teamID) 
         : NonQueryDataDelegate<Player>("NFL.InsertPlayer")
     {
         private readonly string firstName = firstName;
@@ -17,24 +17,27 @@ namespace Data.DataDelegates
         private readonly int height = height;
         private readonly int weight = weight;
         private readonly string mainPos = mainPos;
+        private readonly int teamID = teamID;
+
 
         public override void PrepareCommand(Command command)
         {
             base.PrepareCommand(command);
 
-            command.Parameters.AddWithValue("FirstName", firstName);
-            command.Parameters.AddWithValue("LastName", lastName);
-            command.Parameters.AddWithValue("Height", height);
-            command.Parameters.AddWithValue("Weight", weight);
-            command.Parameters.AddWithValue("MainPosition", mainPos);
+            command.Parameters.AddWithValue("FIRSTNAME", firstName);
+            command.Parameters.AddWithValue("LASTNAME", lastName);
+            command.Parameters.AddWithValue("HEIGHT", height);
+            command.Parameters.AddWithValue("WEIGHT", weight);
+            command.Parameters.AddWithValue("MAINPOSITION", mainPos);
+            command.Parameters.AddWithValue("TEAMID", teamID);
 
-            var p = command.Parameters.Add("PlayerID", System.Data.SqlDbType.Int);
+            var p = command.Parameters.Add("PLAYERID", System.Data.SqlDbType.Int);
             p.Direction = System.Data.ParameterDirection.Output;
         }
 
         public override Player Translate(Command command)
         {
-            return new Player(command.GetParameterValue<int>("PlayerID"), firstName, lastName, height, weight, mainPos);
+            return new Player(command.GetParameterValue<int>("PLAYERID"), firstName, lastName, height, weight, mainPos);
         }
 
     }

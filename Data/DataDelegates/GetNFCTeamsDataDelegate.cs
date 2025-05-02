@@ -17,7 +17,7 @@ namespace Data.DataDelegates
             while (reader.Read())
             {
                 nfcTeams.Add(new ConferenceTeams(
-                    reader.GetInt32("ConferenceName"),
+                    reader.GetNullableInt32("ConferenceSeeding"),
                     reader.GetString("IsConferenceChamp"),
                     reader.GetString("City"),
                     reader.GetString("State"),

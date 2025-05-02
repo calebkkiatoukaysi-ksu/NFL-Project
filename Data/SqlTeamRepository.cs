@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -30,6 +31,8 @@ namespace Data
         {
             executor = new SqlCommandExecutor(connectionString);
         }
+        // Get All Teams
+        public IReadOnlyList<ConferenceTeams> RetrieveAllTeams => executor.ExecuteReader(new GetAllTeamsDataDelegate());
 
         // Get NFC Teams
         public IReadOnlyList<ConferenceTeams> RetrieveNFCTeams => executor.ExecuteReader(new GetNFCTeamsDataDelegate());
@@ -37,7 +40,9 @@ namespace Data
         // Get AFC Teams
         public IReadOnlyList<ConferenceTeams> RetrieveAFCTeams => executor.ExecuteReader(new GetAFCTeamsDataDelegate());
 
-        public Team CreateTeam(int divisionID, int conferenceID, string city, string state, string name, string stadiumName)
+        public IReadOnlyList<GetDivisionsAndConferences> RetrieveDivisionsAndConferences => executor.ExecuteReader(new GetDivisionsAndConferencesDataDelegate());
+
+        public void CreateTeam(int divisionID, int conferenceID, string city, string state, string name, string stadiumName)
         {
             if (string.IsNullOrWhiteSpace(city)) throw new ArgumentException();
             if (string.IsNullOrWhiteSpace(state)) throw new ArgumentException();
@@ -45,13 +50,41 @@ namespace Data
             if (string.IsNullOrWhiteSpace(stadiumName)) throw new ArgumentException();
 
             var insertTeam = new InsertTeamDataDelegate(divisionID, conferenceID, city, state, name, stadiumName);
-            var result = executor.ExecuteNonQuery(insertTeam);
+            executor.ExecuteNonQuery(insertTeam);
 
+
+            OnPropertyChanged(nameof(RetrieveAllTeams));
             OnPropertyChanged(nameof(RetrieveAFCTeams));
             OnPropertyChanged(nameof(RetrieveNFCTeams));
-            return result;
         }
 
+
+        public void CreateConference(string conferenceName)
+        {
+            if (string.IsNullOrWhiteSpace(conferenceName)) throw new ArgumentException();
+
+            var insertConference = new InsertConferenceDataDelegate(conferenceName);
+            executor.ExecuteNonQuery(insertConference);
+
+
+            OnPropertyChanged(nameof(RetrieveAllTeams));
+            OnPropertyChanged(nameof(RetrieveAFCTeams));
+            OnPropertyChanged(nameof(RetrieveNFCTeams));
+        }
+
+        public Division CreateDivision(string divisionName, int conferenceID)
+        {
+            if (string.IsNullOrWhiteSpace(divisionName)) throw new ArgumentException();
+
+            var insertDivision = new InsertDivisionDataDelegate(divisionName, conferenceID);
+            var result = executor.ExecuteNonQuery(insertDivision);
+
+            OnPropertyChanged(nameof(RetrieveAllTeams));
+            OnPropertyChanged(nameof(RetrieveAFCTeams));
+            OnPropertyChanged(nameof(RetrieveNFCTeams));
+
+            return result;
+        }
 
     }
 }

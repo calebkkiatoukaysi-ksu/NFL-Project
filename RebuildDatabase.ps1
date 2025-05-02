@@ -39,10 +39,6 @@ Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile ".\Data\SQL
 Write-Host "Inserting data..."
 python Data\InsertBCPRAW.py
 Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "Data\SQL\Insertion.sql"
-<#
-Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "Data\SQL\Data\MLS.PlayerType.sql"
-Invoke-SqlCmd -ServerInstance $Server -Database $Database -InputFile "Data\SQL\Data\MLS.Club.sql"
-#>
 
 Write-Host "Rebuild completed."
 Write-Host ""

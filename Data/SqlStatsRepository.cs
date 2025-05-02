@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Data
@@ -51,9 +52,45 @@ namespace Data
         public IReadOnlyList<WeightStats> RetrieveWeightStats => executor.ExecuteReader(new WeightStatsDataDelegate());
 
 
-        // get Fantasy
+        // get Fantasy points
         public IReadOnlyList<GetFantasyPoints> RetrieveFantasyPTS => executor.ExecuteReader(new GetFantasyPointsDataDelegate());
+        
 
+        /*
+         * Methods (Adding New Player and Update(merge) Offensive Stats
+         */
+
+
+        public Player NewPlayer(string firstName, string lastName, int height, int weight, string mainPosition, int teamID)
+        {
+            if (string.IsNullOrWhiteSpace(firstName))
+                throw new ArgumentNullException(nameof(firstName), "First name cannot be null or empty.");
+
+            if (string.IsNullOrWhiteSpace(lastName))
+                throw new ArgumentNullException(nameof(lastName), "Last name cannot be null or empty.");
+
+            if (string.IsNullOrWhiteSpace(mainPosition))
+                throw new ArgumentNullException(nameof(lastName), "Position must be filled.");
+
+            var newPlayerDelegate = new InsertPlayerDataDelegate(firstName, lastName, height, weight, mainPosition, teamID);
+
+            var result = executor.ExecuteNonQuery(newPlayerDelegate);
+
+
+            OnPropertyChanged(nameof(RetrieveConferenceStats));
+            OnPropertyChanged(nameof(RetrieveDivisionStats));
+            OnPropertyChanged(nameof(RetrieveTeamStats));
+            OnPropertyChanged(nameof(RetrieveQBStats));
+            OnPropertyChanged(nameof(RetrieveRBStats));
+            OnPropertyChanged(nameof(RetrieveWRStats));
+            OnPropertyChanged(nameof(RetrieveTEStats));
+            OnPropertyChanged(nameof(RetrieveOtherStats));
+            OnPropertyChanged(nameof(RetrieveHeightStats));
+            OnPropertyChanged(nameof(RetrieveWeightStats));
+            OnPropertyChanged(nameof(RetrieveFantasyPTS));
+
+            return result;
+        }
 
         public void UpdateOffensiveStats(string firstName, string lastName, int teamID, int passingYDs, int passingTDs, int receivingYDs, int receivingTDs,
             int rushingYDs, int rushingTDs, int receptions, int carries, int rushingFUMs, int passingINTs)

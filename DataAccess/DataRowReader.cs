@@ -12,7 +12,11 @@ namespace DataAccess
       {
          return reader.Read();
       }
-
+        public int? GetNullableInt32(string name)
+        {
+            int ordinal = reader.GetOrdinal(name);
+            return reader.IsDBNull(ordinal) ? (int?)null : reader.GetInt32(ordinal);
+        }
         public decimal GetDecimal(string name)
         {
             return GetValue(name, reader.GetDecimal);
@@ -38,12 +42,13 @@ namespace DataAccess
          return GetValue(name, reader.GetBoolean);
       }
 
-      public string GetString(string name)
-      {
-         return GetValue(name, reader.GetString);
-      }
+        public string GetString(string name)
+        {
+            int ordinal = reader.GetOrdinal(name);
+            return reader.IsDBNull(ordinal) ? string.Empty : reader.GetString(ordinal);
+        }
 
-      public DateTime GetDateTime(string name, DateTimeKind kind = DateTimeKind.Unspecified)
+        public DateTime GetDateTime(string name, DateTimeKind kind = DateTimeKind.Unspecified)
       {
          DateTime dateTime = GetValue(name, reader.GetDateTime);
          

@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace Data.DataDelegates
 {
-    internal class GetAFCTeamsDataDelegate() : DataReaderDelegate<IReadOnlyList<ConferenceTeams>>("NFL.GetAFCTeams")
+    internal class GetAllTeamsDataDelegate() : DataReaderDelegate<IReadOnlyList<ConferenceTeams>>("NFL.GetAllTeams")
     {
         public override IReadOnlyList<ConferenceTeams> Translate(Command command, IDataRowReader reader)
         {
-            var afcTeams = new List<ConferenceTeams>();
+            var allTeams = new List<ConferenceTeams>();
 
             while (reader.Read())
             {
-                afcTeams.Add(new ConferenceTeams(
+                allTeams.Add(new ConferenceTeams(
                     reader.GetNullableInt32("ConferenceSeeding"),
                     reader.GetString("IsConferenceChamp"),
                     reader.GetString("City"),
@@ -25,7 +25,7 @@ namespace Data.DataDelegates
                     reader.GetString("StadiumName")));
             }
 
-            return afcTeams;
+            return allTeams;
         }
     }
 }

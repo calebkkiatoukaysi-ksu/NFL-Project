@@ -8,7 +8,7 @@ namespace Data.Models
 {
     public class ConferenceTeams
     {
-        public int ConferenceSeeding { get; }
+        public int? ConferenceSeeding { get; }
 
         public bool IsConferenceChamp { get; } // will be read as a string so have to convert
 
@@ -38,8 +38,8 @@ namespace Data.Models
 
             return value.Trim().ToLower() switch
             {
-                "True" => true,
-                "False" => false,
+                "true" => true,
+                "false" => false,
                 _ => throw new ArgumentException($"Invalid boolean value: {value}")
             };
         }

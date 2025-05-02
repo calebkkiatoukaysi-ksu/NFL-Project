@@ -6,6 +6,7 @@
 
       decimal GetDecimal(string name);
 
+        public int? GetNullableInt32(string name);
         long GetInt64(string name);
         
       bool GetBoolean(string name);

@@ -22,14 +22,14 @@ namespace Data.DataDelegates
         {
             base.PrepareCommand(command);
 
-            command.Parameters.AddWithValue("DivisionID", divisionID);
-            command.Parameters.AddWithValue("ConferenceID", conferenceID);
-            command.Parameters.AddWithValue("City", city);
-            command.Parameters.AddWithValue("State", state);
-            command.Parameters.AddWithValue("Name", name);
-            command.Parameters.AddWithValue("StadiumName", stadiumName);
+            command.Parameters.AddWithValue("DIVISIONID", divisionID);
+            command.Parameters.AddWithValue("CONFERENCEID", conferenceID);
+            command.Parameters.AddWithValue("CITY", city);
+            command.Parameters.AddWithValue("STATE", state);
+            command.Parameters.AddWithValue("NAME", name);
+            command.Parameters.AddWithValue("STADIUMNAME", stadiumName);
 
-            var p = command.Parameters.Add("TeamID", System.Data.SqlDbType.Int);
+            var p = command.Parameters.Add("TEAMID", System.Data.SqlDbType.Int);
             p.Direction = System.Data.ParameterDirection.Output;
         }
 

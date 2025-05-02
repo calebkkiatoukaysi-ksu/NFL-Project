@@ -20,7 +20,7 @@ namespace Data
 
         protected void OnPropertyChanged(string name)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name)); // we use on property change because it makes formatting a bit easier and cleaner :)
         }
 
         private const string connectionString = @"Server=(localdb)\MSSQLLocalDb;Database=NFL_PROJECT;Integrated Security=SSPI;";

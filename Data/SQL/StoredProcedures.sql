@@ -14,14 +14,14 @@ CREATE OR ALTER PROCEDURE NFL.InsertPlayer
     @PLAYERID INT OUTPUT
 AS
 BEGIN
-    -- Insert into Player table
+    -- insert into Player table
     INSERT INTO NFL.Player (FirstName, LastName, Height, Weight, MainPosition)
     VALUES (@FIRSTNAME, @LASTNAME, @HEIGHT, @WEIGHT, @MAINPOSITION);
 
-    -- Get the new PlayerID
+    -- get the new PlayerID
     SET @PLAYERID = SCOPE_IDENTITY();
 
-    -- Assign the player to the given team
+    -- assign the player to the given team
     INSERT INTO NFL.PlayerTeam (PlayerID, TeamID)
     VALUES (@PLAYERID, @TEAMID);
 END;
@@ -31,6 +31,8 @@ GO
 -- =====================================
 -- Insert a New Team
 -- =====================================
+
+-- Same idea
 CREATE PROCEDURE NFL.InsertTeam
     @DIVISIONID INT,
     @CONFERENCEID INT,
@@ -77,7 +79,7 @@ BEGIN
     SELECT @PlayerID = PlayerID
     FROM NFL.Player
     WHERE FirstName = @FIRSTNAME AND LastName = @LASTNAME;
-    -- Get or create PlayerTeamID
+    -- get or create PlayerTeamID
     SELECT @PlayerTeamID = PlayerTeamID
     FROM NFL.PlayerTeam
     WHERE PlayerID = @PlayerID AND TeamID = @TEAMID;
@@ -90,7 +92,7 @@ BEGIN
         SET @PlayerTeamID = SCOPE_IDENTITY();
     END
 
-    -- Upsert offensive stats (is that whtat they call it?)
+    -- Upsert offensive stats (is that whtat they call it? LOL)
     MERGE NFL.OffensiveStats AS OS
     USING (SELECT @PlayerTeamID AS PlayerTeamID) AS S
     ON OS.PlayerTeamID = S.PlayerTeamID
@@ -112,7 +114,7 @@ BEGIN
         VALUES (@PlayerTeamID, @PASSINGYDS, @PASSINGTDS, @RECEIVINGYDS, @RECEIVINGTDS,
                 @RUSHINGYDS, @RUSHINGTDS, @RECEPTIONS, @CARRIES, @RUSHINGFUMS, @PASSINGINTS);
 END;
-GO
+GO -- tl:dr the first Update/Merge didnt account for created players, so this method utilized multiple select statements to make that happen. (took about 30 ish minutes?)
 
 
 -- =====================================
@@ -128,7 +130,7 @@ BEGIN
 
     SET @CONFERENCEID = SCOPE_IDENTITY(); 
 END;
-GO
+GO -- straight forward
 
 
 -- =====================================
@@ -145,4 +147,4 @@ BEGIN
 
     SET @DIVISIONID = SCOPE_IDENTITY();
 END;
-GO
+GO --  straight forward

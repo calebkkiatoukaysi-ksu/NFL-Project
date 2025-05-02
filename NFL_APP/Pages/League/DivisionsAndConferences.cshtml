@@ -1,0 +1,27 @@
+﻿@page
+@model NFL_APP.Pages.League.DivisionsAndConferencesModel
+@{
+}
+<!-- Page Header -->
+<h1 class="text-center mb-4">Divisions (With Associated Conference)</h1>
+
+<!-- Table -->
+<div class="container">
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Division Name</th>
+                <th>Conference</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var stat in Model.Conferences)
+            {
+                <tr>
+                    <td>@stat.DivisionName</td>
+                    <td>@stat.ConferenceName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

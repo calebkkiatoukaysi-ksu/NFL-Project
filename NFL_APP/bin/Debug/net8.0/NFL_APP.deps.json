@@ -412,10 +412,7 @@
           "DataAccess": "1.0.0"
         },
         "runtime": {
-          "Data.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Data.dll": {}
         }
       },
       "DataAccess/1.0.0": {
@@ -423,10 +420,7 @@
           "Microsoft.Data.SqlClient": "6.0.2"
         },
         "runtime": {
-          "DataAccess.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "DataAccess.dll": {}
         }
       }
     }

@@ -1,0 +1,93 @@
+﻿@page
+@model LeagueModel
+@{
+}
+
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Commisioner Panel</h2>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-primary text-white">Create a New Team</div>
+        <div class="card-body">
+            <!--create a team-->
+            <form method="post" asp-page-handler="CreateTeam">
+                <div class="row mb-3">
+                    <div class="col">
+                        <label asp-for="City" class="form-label"></label>
+                        <input asp-for="City" class="form-control" />
+                    </div>
+                    <div class="col">
+                        <label asp-for="State" class="form-label">State (example: CA, KS, MO)</label>
+                        <input asp-for="State" class="form-control" maxlength="2" pattern="^[A-Z]{2}$" />
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                    </div>
+                    <div class="col">
+                        <label asp-for="StadiumName" class="form-label"></label>
+                        <input asp-for="StadiumName" class="form-control" />
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <label asp-for="ConferenceID" class="form-label"></label>
+                        <input asp-for="ConferenceID" type="number" class="form-control" min="1" max="@Model.ConferenceCount" />
+                    </div>
+                    <div class="col">
+                        <label asp-for="DivisionID" class="form-label"></label>
+                        <input asp-for="DivisionID" type="number" class="form-control" min="1" max="@Model.DivisionCount" />
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success" asp-page-handler="CreateTeam">Create Team</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-secondary text-white">Create a New Conference</div>
+        <div class="card-body">
+            <!--Create a conference-->
+            <form method="post" asp-page-handler="CreateConference">
+                <div class="mb-3">
+                    <label class="form-label" for="ConferenceName">Conference Name</label>
+                    <input id="ConferenceName" class="form-control" required asp-for="CreateConferenceName" />
+
+                </div>
+                <button type="submit" class="btn btn-success">Create Conference</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-info text-white">Create a New Division</div>
+        <div class="card-body">
+            <!--create a divison-->
+            <form method="post" asp-page-handler="CreateDivision">
+                <div class="row mb-3">
+                    <div class="col">
+                        <label class="form-label">Division Name</label>
+                        <input id="DivisionName" class="form-control" required asp-for="CreateDivisionName" />
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label asp-for="CreateConferenceID" class="form-label"></label>
+                            <input type="number" class="form-control" asp-for="CreateConferenceID" required min="1" max="@Model.ConferenceCount" />
+                            <span asp-validation-for="CreateConferenceID" class="text-danger"></span>
+                        </div>
+
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success">Create Division</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container mt-3">
+    <a class="btn btn-primary" href="@Url.Page("/League/DivisionsAndConferences")">View Divisions and Conferences</a>
+</div>

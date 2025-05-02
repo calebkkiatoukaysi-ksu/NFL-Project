@@ -1,0 +1,48 @@
+﻿@page
+@model NFL_APP.Pages.StatsPages.HeightWeightStatsModel
+@{
+    @using Data.Models;
+}
+
+<h1 class="text-center mb-4">Does Height and Weight Matter?</h1>
+
+<div class="text-center mb-4">
+    <form method="post" asp-page-handler="GetTypeStats" style="display:inline;">
+        <input type="hidden" name="type" value="Height" />
+        <button type="submit" class="btn @(Model.SelectedType == "Height" ? "btn-primary" : "btn-outline-primary")">Height</button>
+    </form>
+    <form method="post" asp-page-handler="GetTypeStats" style="display:inline;">
+        <input type="hidden" name="type" value="Weight" />
+        <button type="submit" class="btn @(Model.SelectedType == "Weight" ? "btn-secondary" : "btn-outline-secondary")">Weight</button>
+    </form>
+</div>
+
+<div id="statsTable">
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                @foreach (var header in Model.TableHeaders)
+                {
+                    <th>@header</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var stat in Model.PhysicalStats)
+            {
+                <tr>
+                    <td>@(Model.SelectedType == "Height" ? ((HeightStats)stat).Height : ((WeightStats)stat).Weight)</td>
+                    <td>@stat.PlayerCount</td>
+                    <td>@stat.PassingYDS</td>
+                    <td>@stat.RushingYDS</td>
+                    <td>@stat.ReceivingYDS</td>
+                    <td>@stat.TotalYDs</td>
+                    <td>@stat.AverageYDs.ToString("F2")</td>
+                    <td>@stat.TotalTDs</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

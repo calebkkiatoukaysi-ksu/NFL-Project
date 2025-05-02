@@ -1,0 +1,137 @@
+﻿@page
+@model NFL_APP.Pages.StatsPages.CreatePlayerUpdateStatsModel
+@{
+}
+<div class="card mb-4 shadow-sm border-success">
+    <div class="card-header bg-success text-white">Create a New Player</div>
+    <div class="card-body">
+        <form method="post" asp-page-handler="CreatePlayer">
+            <div class="row mb-3">
+                <div class="col">
+                    <label asp-for="FirstName" class="form-label">First Name</label>
+                    <input asp-for="FirstName" class="form-control" required />
+                </div>
+                <div class="col">
+                    <label asp-for="LastName" class="form-label">Last Name</label>
+                    <input asp-for="LastName" class="form-control" required />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label asp-for="Height" class="form-label">Height (in inches)</label>
+                    <input asp-for="Height" type="number" class="form-control" min="48" max="96" required />
+                </div>
+                <div class="col">
+                    <label asp-for="Weight" class="form-label">Weight (in pounds)</label>
+                    <input asp-for="Weight" type="number" class="form-control" min="100" max="400" required />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label asp-for="MainPosition" class="form-label">Primary Position</label>
+                    <!--List of Positions for the user.-->
+                    <select asp-for="MainPosition" class="form-select bg-light border-info" required>
+                        <option value="">Select Position</option>
+                        <option>QB</option>
+                        <option>RB</option>
+                        <option>WR</option>
+                        <option>TE</option>
+                        <option>OL</option>
+                        <option>DL</option>
+                        <option>LB</option>
+                        <option>CB</option>
+                        <option>S</option>
+                        <option>K</option>
+                        <option>P</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label asp-for="TeamID" class="form-label">Team ID</label>
+                    <input asp-for="TeamID" type="number" class="form-control border-primary" min="1" required />
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-outline-success">Create Player</button>
+        </form>
+    </div>
+</div>
+<div class="card mb-4 shadow-sm border-warning">
+    <div class="card-header bg-warning text-dark">Update Offensive Stats</div>
+    <div class="card-body">
+        <form method="post" asp-page-handler="UpdateOffensiveStats">
+            <!-- ctrl + c LOL -->
+            <!-- player name and team id -->
+            <div class="row mb-3">
+                <div class="col">
+                    <label asp-for="UpdateFirstName" class="form-label">First Name</label>
+                    <input asp-for="UpdateFirstName" class="form-control" required />
+                </div>
+                <div class="col">
+                    <label asp-for="UpdateLastName" class="form-label">Last Name</label>
+                    <input asp-for="UpdateLastName" class="form-control" required />
+                </div>
+                <div class="col">
+                    <label asp-for="UpdateTeamID" class="form-label">Team ID</label>
+                    <input asp-for="UpdateTeamID" type="number" class="form-control" min="1" required />
+                </div>
+            </div>
+
+            <!-- passing-->
+            <div class="row mb-3 border-bottom pb-3">
+                <div class="col">
+                    <label asp-for="UpdatePassingYDs" class="form-label">Passing Yards</label>
+                    <input asp-for="UpdatePassingYDs" type="number" class="form-control border-info" />
+                </div>
+                <div class="col">
+                    <label asp-for="UpdatePassingTDs" class="form-label">Passing Touchdowns</label>
+                    <input asp-for="UpdatePassingTDs" type="number" class="form-control border-info" />
+                </div>
+                <div class="col">
+                    <label asp-for="UpdatePassingINTs" class="form-label">Passing INTs</label>
+                    <input asp-for="UpdatePassingINTs" type="number" class="form-control border-danger" />
+                </div>
+            </div>
+
+            <!-- Receiving-->
+            <div class="row mb-3 border-bottom pb-3">
+                <div class="col">
+                    <label asp-for="UpdateReceivingYDs" class="form-label">Receiving Yards</label>
+                    <input asp-for="UpdateReceivingYDs" type="number" class="form-control border-success" />
+                </div>
+                <div class="col">
+                    <label asp-for="UpdateReceivingTDs" class="form-label">Receiving Touchdowns</label>
+                    <input asp-for="UpdateReceivingTDs" type="number" class="form-control border-success" />
+                </div>
+                <div class="col">
+                    <label asp-for="UpdateReceptions" class="form-label">Receptions</label>
+                    <input asp-for="UpdateReceptions" type="number" class="form-control border-secondary" />
+                </div>
+            </div>
+
+            <!-- Rushing-->
+            <div class="row mb-3">
+                <div class="col">
+                    <label asp-for="UpdateRushingYDs" class="form-label">Rushing Yards</label>
+                    <input asp-for="UpdateRushingYDs" type="number" class="form-control border-primary" />
+                </div>
+                <div class="col">
+                    <label asp-for="UpdateRushingTDs" class="form-label">Rushing Touchdowns</label>
+                    <input asp-for="UpdateRushingTDs" type="number" class="form-control border-primary" />
+                </div>
+                <div class="col">
+                    <label asp-for="UpdateCarries" class="form-label">Carries</label>
+                    <input asp-for="UpdateCarries" type="number" class="form-control border-dark" />
+                </div>
+                <div class="col">
+                    <label asp-for="UpdateRushingFUMs" class="form-label">Rushing Fumbles</label>
+                    <input asp-for="UpdateRushingFUMs" type="number" class="form-control border-danger" />
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-outline-warning">Update Stats</button>
+        </form>
+    </div>
+</div>
+

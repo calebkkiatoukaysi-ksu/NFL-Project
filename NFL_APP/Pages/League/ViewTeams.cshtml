@@ -1,0 +1,48 @@
+﻿@page
+@model NFL_APP.Pages.League.ViewTeamsModel
+@{
+}
+<h1 class="text-center mb-4">Team Rankings</h1>
+
+<div class="text-center mb-4">
+    <form method="post" asp-page-handler="GetConference" style="display:inline;">
+        <input type="hidden" name="type" value="AFC" />
+        <button type="submit" class="btn @(Model.SelectedType == "AFC" ? "btn-danger" : "btn-outline-danger")">AFC</button>
+    </form>
+    <form method="post" asp-page-handler="GetConference" style="display:inline;">
+        <input type="hidden" name="type" value="All" />
+        <button type="submit" class="btn @(Model.SelectedType == "All" ? "btn-secondary" : "btn-outline-secondary")">All</button>
+    </form>
+    <form method="post" asp-page-handler="GetConference" style="display:inline;">
+        <input type="hidden" name="type" value="NFC" />
+        <button type="submit" class="btn @(Model.SelectedType == "NFC" ? "btn-primary" : "btn-outline-primary")">NFC</button>
+    </form>
+</div>
+
+
+<div id="statsTable">
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                @foreach (var header in Model.TableHeaders)
+                {
+                    <th>@header</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var stat in Model.Teams)
+            {
+                <tr>
+                    <td>@stat.ConferenceSeeding</td>
+                    <td>@stat.IsConferenceChamp</td>
+                    <td>@stat.City</td>
+                    <td>@stat.State</td>
+                    <td>@stat.Name</td>
+                    <td>@stat.StadiumName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

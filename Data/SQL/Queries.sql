@@ -145,7 +145,7 @@ Group By c.ConferenceName
 Order By TotalTDs DESC, TotalYDs DESC
 GO
 
---Gets the stats of all players and groups them by height with the height with the most people shown first, also shows average stats from the height group
+--Gets the stats of all players and groups them by height(all players of a height have their stats summed up) with the height with the most people shown first, also shows average stats from the height group
 Create or Alter PROCEDURE NFL.GetHeightStats
 AS
 Select p.Height, COUNT(p.PlayerId) AS PlayerCount, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs) AS TotalTDs, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs)/ COUNT(p.PlayerId)AS AverageTDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs) AS TotalYDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs)/ COUNT(p.PlayerId) AS AverageYDs, SUM(o.PassingYDs) AS PassingYDs, SUM(o.ReceivingYDs) AS ReceivingYDs, SUM(o.RushingYDS) AS RushingYDs
@@ -156,7 +156,7 @@ Group By p.Height
 Order By PlayerCount DESC, AverageYDs DESC
 GO
 
---Gets the stats of all players and groups them by weight with the weight with the most people shown first, also shows average stats from the weight group
+--Gets the stats of all players and groups them by weight(all players of a weight have their stats summed up) with the weight with the most people shown first, also shows average stats from the weight group
 Create or Alter PROCEDURE NFL.GetWeightStats
 AS
 Select p.Weight, COUNT(p.PlayerId) AS PlayerCount, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs) AS TotalTDs, SUM(o.PassingTDs + o.RushingTDs + o.ReceivingTDs)/ COUNT(p.PlayerId)AS AverageTDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs) AS TotalYDs, SUM(o.PassingYDs + o.RushingYDs + o.ReceivingYDs)/ COUNT(p.PlayerId) AS AverageYDs, SUM(o.PassingYDs) AS PassingYDS, SUM(o.ReceivingYDs) AS ReceivingYDS, SUM(o.RushingYDS) AS RushingYDS

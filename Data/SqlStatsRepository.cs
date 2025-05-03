@@ -92,8 +92,8 @@ namespace Data
             return result;
         }
 
-        public void UpdateOffensiveStats(string firstName, string lastName, int teamID, int passingYDs, int passingTDs, int receivingYDs, int receivingTDs,
-            int rushingYDs, int rushingTDs, int receptions, int carries, int rushingFUMs, int passingINTs)
+        public void UpdateOffensiveStats(string firstName, string lastName, int teamID, int passingYDs, int passingTDs, int passingINTs, int receivingYDs,
+            int receivingTDs, int receptions, int rushingYDs, int rushingTDs, int carries, int rushingFUMs)
         {
             if (string.IsNullOrWhiteSpace(firstName))
                 throw new ArgumentNullException(nameof(firstName), "First name cannot be null or empty.");

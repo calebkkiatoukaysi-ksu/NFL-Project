@@ -12,8 +12,10 @@ namespace NFL_APP.Pages.League
         private readonly SqlTeamRepository repository;
 
         // keep track of how many conference we have
-        public int ConferenceCount = 2;
-        public int DivisionCount = 8;
+        private static int _conferenceCount = 2;
+        public int ConferenceCount { get => _conferenceCount; set { _conferenceCount = value; } }
+        private static int _divisionCount = 8;
+        public int DivisionCount { get => _divisionCount; set { _divisionCount = value; } }
 
         // To store the values for Creating a Team
         [BindProperty]
